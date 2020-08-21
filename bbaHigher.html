@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="/css/admissions.css"/>
+    <title>AIISM Dharwad</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="navbar">
+        <h1>Admissions</h1>
+        <div class="menu">
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Eligibility <i data-feather="chevron-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="https://aiim-edu.org/bbaeligibility.html" target="_blank">BBA</a>
+            <a href="https://aiim-edu.org/bcaeligibility.html" target="_blank">BCA</a>
+          </div>
+        </div>      
+        <div class="dropdown">
+          <button class="dropbtn">BBA <i data-feather="chevron-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../html/bbaFreshers.html">First Sem</a>
+            <a href="../html/bbaHigher.html">Higher Sem</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">BCA <i data-feather="chevron-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../html/bcaFreshers.html">First Sem</a>
+            <a href="../html/bcaHigher.html">Higher Sem</a>
+          </div>
+        </div>
+      </div>
+    </div>    
+      <header>
+        <div class="form-box">
+          <form class="input-group" id="personal">
+            <h1 class="heading-primary--admin">BBA Admission Form</h1>
+            <table class="data">
+              <tr>
+                <td>
+                  <label>Students Name</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Candidates Name"
+                    autocomplete="off"
+                    required
+                  />
+                </td>
+              </tr>             
+              <tr>
+                <td>
+                  <label>Select Semester</label>
+                </td>
+                <td>
+                  <select name="format" id="format">                  
+                    <option value="second">II Semester</option>
+                    <option value="third">III Semester</option>
+                    <option value="fourth">IV Semester</option>
+                    <option value="fifth">V Semester</option>
+                    <option value="sixth">VI Semester</option>
+                  </select>
+                </td>
+              </tr> 
+              <tr>
+                <td>
+                  <label>Register No.</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter University Register No."
+                    autocomplete="off"
+                    required
+                  />
+                </td>
+              </tr>              
+              <tr>
+                <td>
+                  <label>Caste/Category</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="nationality"
+                    class="input-field"
+                    placeholder="Enter Caste/Category"
+                    autocomplete="off"
+                    required
+                  />
+                </td>
+              </tr>              
+                <td>
+                  <label>Enter the Amount</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Fees Amount"
+                    autocomplete="off"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="btns"><a href="https://pay.google.com/intl/en_in/about/?gclid=CjwKCAjw9vn4BRBaEiwAh0muDLJ_K4Hzbkt2speHRQiMgEwv4s6YaCdH7A-4UHDjojCD8v5GRgRhIhoCWhAQAvD_BwE">Pay Fees</a></div>
+                </td>
+                <td>
+                  <div class="btns"><a href="#">Reset</a></div>
+                 </td>                                  
+              </tr>
+            </table> 
+          </form> 
+        </div>
+      </header>
+      <script>
+        feather.replace()
+      </script>
+  </body>
+</html>
